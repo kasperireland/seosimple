@@ -5,7 +5,7 @@
 <SCRIPT LANGUAGE="JavaScript">
 
 {
-var name = prompt ('What is your website URL? (Example: https://google.com). Must include HTTPS://','');
+window.onload = alert(localStorage.getItem("name"));
 document.write("<BR><DIV CLASS = 'container'><FONT FACE=ARIAdL,VERDANA SIZE=5><strong>Your domain name: <a href = '"+name+"' target = _blank>"+name+"</a></strong></FONT><HR></DIV><P>")
 }
 
