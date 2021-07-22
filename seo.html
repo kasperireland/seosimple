@@ -28,7 +28,7 @@ Create a file called sitemap.xml on your website with the following content insi
       &nbsp;&nbsp;&nbsp;xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd'>
             <br><<span>url</span>><br>
-            <<span>loc</span>><script>document.write(name);</script><<span>/loc</span>><br>
+            <<span>loc</span>><script>document.write(localStorage.getItem("name"));</script><<span>/loc</span>><br>
             <<span>lastmod</span>>2013-01-02<<span>/lastmod</span>><br>
             <<span>changefreq</span>>monthly<<span>/changefreq</span>><br>
             <<span>priority</span>>0.8<<span>/priority</span>><br>
