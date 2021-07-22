@@ -5,7 +5,8 @@
   
    <script>
       function siteurl() {
-        localStorage.setItem("name",document.getElementById('getInput'));
+        var inputEmail= document.getElementById("getInput");
+        localStorage.setItem("name", getInput.value);
         window.location = "seo.html";
       }
     </script>
